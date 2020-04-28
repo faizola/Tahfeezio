@@ -1,4 +1,4 @@
-# MY FINAL PROJECT (Web App Track)
+# MY FINAL PROJECT (CS50X Web App Track)
 ## Title: Tahfeezio Quran Memorisation Buddy
 
 ### Problem Statement
@@ -14,7 +14,7 @@ What I want to be able to do is create a web app for it to help him track his me
 | BR3   | Solution to allow Teacher role to set challenge<br> and monitor progress | - To allow customisation of challenge set<br>- To allow followup in physical form to complement application |
 
 ### User Requirements
-| UR id | Requirement                                                                                                                                                | Rationale                                                                               | Parent  |
+| UR id | Requirement                                                                                                                                                | Rationale                                                                               | Parent             |
 |-------|------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|--------------------|
 | UR1   | List of chapters as a selection displayed by<br>chapter number, title, (number of verses)                                                                  | Teachers to select chapter as 'challenge' for students<br>to focus on                   | BR1                |
 | UR2   | List of verses                                                                                                                                             | Students to be shown verses by ascending<br>order for memorisation challenge            | BR1                |
@@ -28,7 +28,7 @@ What I want to be able to do is create a web app for it to help him track his me
 | UR10  | Completed verse is added to a list in another<br>activity                                                                                                  | For students to recall all memorised verses <br>to ensure 'stickability'                | BR2                |
 | UR11  | Activity for students to arrange verses in<br>correct order                                                                                                | For students to recall proper order of verses<br>in a chapter                           | BR2                |
 | UR12  | Automated flow of activities for each `session`                                                                                                            | Students sit in a session per daily login (or more)                                     | BR2                |
-| UR13  | Activity for student to record an audio/video of reading                                                                                                   | To allow teachers to check on reading competency                                        | BR2                |
+| UR13  | Activity for student to submit audio/video recording of reading                                                                                            | To allow teachers to check on reading competency                                        | BR2                |
 | UR14  | Teacher can add comment to reading submission                                                                                                              | To allow teachers to give comments for improvements                                     | BR3                |
 | UR15  | Teacher can add score to reading submission                                                                                                                | To allow teachers to mark and manage scores for `class`                                 | BR3                |
 | UR16  | Log in as a student or a teacher                                                                                                                           | Allow access to different part of the application <br>under a different role            | BR3                |
@@ -58,4 +58,7 @@ What I want to be able to do is create a web app for it to help him track his me
 | FR9   | Challenge list to include - Uncompleted challenge,<br>Completed challenge<br><br>Challenge complete will be upon dateline set.<br>Students can resubmit recordings before dateline is over.                                                                                                                                         | To allow for resubmissions and progress during challenge                                                                                          | UR24, <br>UR25        |
 | FR10  | New submission of videos will overwrite previous video<br>submission for challenge.                                                                                                                                                                                                                                                 | To save space in cloud                                                                                                                            | UR24, <br>UR25        |
 
-
+### Non-Functional Requirements
+1. To note for security on cloud
+2. Speed of loading and responsiveness (TBD)
+3. Robustness and resilience of data (for progress and session saving)
