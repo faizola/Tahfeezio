@@ -14,7 +14,7 @@ What I want to be able to do is create a web app for it to help him track his me
 | BR3   | Solution to allow Teacher role to set challenge<br> and monitor progress | - To allow customisation of challenge set<br>- To allow followup in physical form to complement application |
 
 ### User Requirements
-| UR id | Requirement                                                                                                                                                | Rationale                                                                               | Parent Requirement |
+| UR id | Requirement                                                                                                                                                | Rationale                                                                               | Parent  |
 |-------|------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|--------------------|
 | UR1   | List of chapters as a selection displayed by<br>chapter number, title, (number of verses)                                                                  | Teachers to select chapter as 'challenge' for students<br>to focus on                   | BR1                |
 | UR2   | List of verses                                                                                                                                             | Students to be shown verses by ascending<br>order for memorisation challenge            | BR1                |
